@@ -9,17 +9,19 @@
         android:id="@+id/lista_aluno" />
 
     <Button
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:id="@+id/novo_aluno"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
         android:text="+"
-        android:textColor="#ffffff"
         android:textSize="40sp"
-        android:elevation="6dp"
-        android:layout_alignParentBottom="true"
+        android:textColor="#ffffff"
         android:layout_alignParentRight="true"
-        android:layout_marginBottom="16dp"
+        android:layout_alignParentBottom="true"
         android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/fundo"
+        android:elevation="6dp"
         android:stateListAnimator="@null"/>
+
 
 </RelativeLayout>
